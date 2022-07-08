@@ -69,12 +69,16 @@ namespace LoginForm
                 }
             }
 
+
         }
 
-        private void BtnReset_Click(object sender, EventArgs e)
+        private void BtnSignUp_Click(object sender, EventArgs e)
         {
-            TxtUseName.Clear();
-            TxtPassword.Clear();
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+                
+                
         }
     }
 }

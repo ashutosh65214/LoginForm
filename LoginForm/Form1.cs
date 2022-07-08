@@ -16,7 +16,7 @@ namespace LoginForm
     {
         private SqlConnection obj = null;
         private SqlCommand cmd = null;
-        private SqlDataReader reader = null;
+        
         public Form1()
         {
             InitializeComponent();
@@ -60,7 +60,7 @@ namespace LoginForm
 
         private void BtnReset_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.reset();
 
         }
 
